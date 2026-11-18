@@ -4,7 +4,7 @@
 
 ### how it works
 * **line-of-sight checks:** unlike standard A\*, which connects a node only to adjacent grid neighbors, Theta\* checks whether a node has an unobstructed line of sight to its current parent's parent (an ancestor node)
-* **sny-Angle shortcuts:** if the line of sight is clear and the direct distance is shorter, Theta\* connects the node directly to that ancestor, skipping intermediate grid cells
+* **any-angle shortcuts:** if the line of sight is clear and the direct distance is shorter, Theta\* connects the node directly to that ancestor, skipping intermediate grid cells
 * **heuristic search:** like A\*, it prioritizes candidate nodes using the accumulated path cost ($g$) plus a heuristic estimate to the goal ($h$) to guide the search efficiently
 
 ### key characteristics

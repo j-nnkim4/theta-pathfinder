@@ -1,4 +1,4 @@
-## Theta*
+## theta*
 
 **theta\*** is an any-angle pathfinding algorithm built on [A\* search](https://wikipedia.org*) that finds short & direct routes across grids without restricting movement to grid edges or 45/90-degree increments
 

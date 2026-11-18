@@ -9,5 +9,5 @@
 
 ### key characteristics
 * **smoother, shorter paths:** removes artificial zig-zagging along grid edges, producing natural, near-Euclidean paths without requiring a separate post-processing smoothing pass
-* **fast & near-Optimal:** maintains runtimes close to standard A\* while yielding significantly shorter paths, though it does not strictly guarantee the mathematically optimal shortest path in every edge case
+* **fast & near-optimal:** maintains runtimes close to standard A\* while yielding significantly shorter paths, though it does not strictly guarantee the mathematically optimal shortest path in every edge case
 * **common variants:** related extensions include **Lazy Theta\*** (which delays line-of-sight checks to improve speed) and **Phi\*** (designed for dynamic environments with changing obstacles)
